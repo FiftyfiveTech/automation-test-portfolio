@@ -1,0 +1,33 @@
+{
+  "OrgLevel_1_hierarchy": ["Org_Asia", "Org_India", "Org_Nepal", "Org_Delhi"],
+  "OrgLevel_2_hierarchy": ["Org_India", "Org_Delhi"],
+  "OrgLevel_3_hierarchy": ["Org_Delhi"],
+  "ApLevel_1_hierarchy": [
+    "Org_Asia_AP",
+    "Org_India_AP",
+    "Org_Nepal_AP",
+    "Org_Delhi_AP"
+  ],
+  "ApLevel_2_hierarchy": ["Org_India_AP", "Org_Delhi_AP"],
+  "ApLevel_3_hierarchy": ["Org_Delhi_AP"],
+  "UserLevel_1_hierarchy": [
+    "org-asia-user",
+    "org-india-user",
+    "org-nepal-user",
+    "org-delhi-user"
+  ],
+  "UserLevel_2_hierarchy": ["org-india-user", "org-delhi-user"],
+  "UserLevel_3_hierarchy": ["org-delhi-user"],
+  "OrgLevel_1_parent": ["Connectel"],
+  "OrgLevel_2_parent": ["Connectel", "Org_Asia"],
+  "OrgLevel_3_parent": ["Connectel", "Org_Asia", "Org_India", "Org_Nepal"],
+  "ApLevel_3_parentTitle": ["Org_Asia_AP", "Org_India_AP", "Org_Nepal_AP"],
+  "ORG_LEVEL_1_USER": "org-asia-user",
+  "ORG_LEVEL_2_CHILD_1_USER": "org-india-user",
+  "ORG_LEVEL_2_CHILD_2_USER": "org-nepal-user",
+  "ORG_LEVEL_3_USER": "org-delhi-user",
+  "ORG_LEVEL_1": "Org_Asia",
+  "ORG_LEVEL_2_CHILD_1": "Org_India",
+  "ORG_LEVEL_3": "Org_Delhi",
+  "ORG_LEVEL_2_CHILD_2": "Org_Nepal"
+}

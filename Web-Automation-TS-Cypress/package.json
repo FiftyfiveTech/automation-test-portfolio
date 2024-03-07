@@ -1,0 +1,30 @@
+{
+  "name": "connectelautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:agent": "cypress run --spec cypress/e2e/agent/**/*.cy.ts --reporter mochawesome",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "lint-fix": "eslint --ignore-path .gitignore . --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/parser": "^5.44.0",
+    "cypress": "^11.2.0",
+    "cypress-localstorage-commands": "^2.2.1",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "eslint": "^8.29.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^4.9.3"
+  },
+  "description": "",
+  "dependencies": {}
+}

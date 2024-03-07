@@ -1,0 +1,5 @@
+{
+    "fields":{"sv":["ORDERNUMMER","DATUM","SUMMA","ORDERMÄRKNING","STATUS"],"int":["ORDER NUMBER","DATE","SUM","ORDER MARKING","STATUS"]},
+    "orderInfo":["Status","Våra detaljer","Beställ produkter","Användarinformation","Namn","ArtNo.","Antal","Pris","Rabatt(%)","Belopp","Totalt"],
+    "OrderFieldsInDashboard":{"sv":["ORDERNUMMER","DATUM","STATUS","SUMMA"],"int":["ORDER NUMBER","DATE","STATUS","SUM"]}
+}

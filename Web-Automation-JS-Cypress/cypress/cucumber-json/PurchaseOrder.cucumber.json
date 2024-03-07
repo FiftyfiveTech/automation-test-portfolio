@@ -1,0 +1,952 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Purchasing order",
+    "line": 1,
+    "id": "purchasing-order",
+    "tags": [],
+    "uri": "PurchaseOrder.feature",
+    "elements": [
+      {
+        "id": "purchasing-order;verify-that-user-is-able-to-place-purchase-order-quickly-using-snabborder-with-foretag-address",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Verify that user is able to place purchase order quickly using snabborder with FORETAG address",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "We log in stage url with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 33519000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 2701000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Items are added to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 8804000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User navigates to checkout page",
+            "result": {
+              "status": "passed",
+              "duration": 5394000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Fills all the details using Foretag adress",
+            "result": {
+              "status": "passed",
+              "duration": 19972000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Accepts terms and conditions and places order",
+            "result": {
+              "status": "passed",
+              "duration": 5386000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "He should be able to purchase that item",
+            "result": {
+              "status": "failed",
+              "duration": 10194000000,
+              "error_message": "AssertionError: Timed out retrying after 10000ms: expected '<input>' to have value 'Automation/Do not deliver/STAGE', but the value was 'Automation/Do not deliversv'\n    + expected - actual\n\n    -'Automation/Do not deliversv'\n    +'Automation/Do not deliver/STAGE'\n\n    at verifyOrderConfirmationForForetagAddress (cypress/e2e/PageObjects/KundvagnPage.js:256:48)\n    at Context.eval (cypress/e2e/Features/PurchaseOrder/PurchaseOrder.spec.js:36:4)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Logout",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "purchasing-order;user-is-able-to-place-purchase-order-by-selecting-a-spare-part-through-navigation-till-spare-part-page-by-using-befintlig-address-with-schenker-delivery-method",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "User is able to place purchase order by selecting a spare part through navigation till spare part page by using Befintlig address with schenker delivery method",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "We log in stage url with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1436000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User selects a product group",
+            "result": {
+              "status": "passed",
+              "duration": 4516000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "Selects a model of the group",
+            "result": {
+              "status": "passed",
+              "duration": 840000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Navigates to the final spare part page and add that item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 5759000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Fills all the details at kundvagn page selecting schenker delivery method",
+            "result": {
+              "status": "passed",
+              "duration": 17544000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "He should be able to purchase that item with schenker delivery method",
+            "result": {
+              "status": "passed",
+              "duration": 621000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "Logout",
+            "result": {
+              "status": "passed",
+              "duration": 6623000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "purchasing-order;user-is-able-to-place-puchase-order-by-selecting-spare-part-through-navigation-using-privat-address",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "User is able to place puchase order by selecting spare part through navigation using Privat Address",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "We log in stage url with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "User selects a product group",
+            "result": {
+              "status": "passed",
+              "duration": 3862000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "Selects a model of the group",
+            "result": {
+              "status": "passed",
+              "duration": 635000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Navigates to the final spare part page and add that item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 5026000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "Fills all the details at kundvagn page using Privat Adress",
+            "result": {
+              "status": "passed",
+              "duration": 16823000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "He should be able to purchase that item using Private Address",
+            "result": {
+              "status": "passed",
+              "duration": 409000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Logout",
+            "result": {
+              "status": "passed",
+              "duration": 6089000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "purchasing-order;verify-that-user-is-getting-notified-about-partial-deliveries",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Verify that user is getting notified about partial deliveries",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "We log in stage url with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1077000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1555000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 36,
+            "name": "Items are added to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 8694000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "User navigates to checkout page",
+            "result": {
+              "status": "passed",
+              "duration": 5419000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "Select icon to see the message for partial deliveries",
+            "result": {
+              "status": "passed",
+              "duration": 2153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Message for partial deliveries should display",
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "Logout",
+            "result": {
+              "status": "passed",
+              "duration": 5492000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "purchasing-order;verify-that-user-is-getting-notified-and-unable-to-place-order-if-postcode-is-not-five-digits-long",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Verify that user is getting notified and unable to place order if postcode is not five digits long",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "We log in stage url with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 2240000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 44,
+            "name": "Items are added to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 8761000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "User navigates to checkout page",
+            "result": {
+              "status": "passed",
+              "duration": 5420000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "Fill all the details at kundvagn page and fill postcode with less than five digits",
+            "result": {
+              "status": "passed",
+              "duration": 6533000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "User should receive proper error message for postcode",
+            "result": {
+              "status": "passed",
+              "duration": 59000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "User should not be able to place order",
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "Logout",
+            "result": {
+              "status": "passed",
+              "duration": 5556000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "purchasing-order;verify-that-user-is-getting-notified-and-unable-to-place-order-if-postcode-is-more-than-five-digits-long",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Verify that user is getting notified and unable to place order if postcode is more than five digits long",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "We log in stage url with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1040000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 53,
+            "name": "Items are added to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 8768000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "User navigates to checkout page",
+            "result": {
+              "status": "passed",
+              "duration": 5401000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "Fill all the details at kundvagn page and fill postcode with more than five digits",
+            "result": {
+              "status": "passed",
+              "duration": 6566000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "User should receive proper error message for postcode",
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "User should not be able to place order",
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "Logout",
+            "result": {
+              "status": "passed",
+              "duration": 5643000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "purchasing-order;verify-that-user-is-able-to-navigate-to-product-details-from-checkout-page",
+        "keyword": "Scenario",
+        "line": 61,
+        "name": "Verify that user is able to navigate to product details from checkout page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "We log in stage url with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1291000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1229000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 62,
+            "name": "User is at checkout page after adding items to cart",
+            "result": {
+              "status": "passed",
+              "duration": 9193000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 63,
+            "name": "User clicks the name of the spare part",
+            "result": {
+              "status": "passed",
+              "duration": 1332000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "He should navigate to its respective spare part page",
+            "result": {
+              "status": "passed",
+              "duration": 738000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "All the related details of item should available for him",
+            "result": {
+              "status": "passed",
+              "duration": 306000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "Logout",
+            "result": {
+              "status": "passed",
+              "duration": 5896000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "purchasing-order;verify-that-user-is-able-to-remove-items-from-checkout-page",
+        "keyword": "Scenario",
+        "line": 69,
+        "name": "Verify that user is able to remove items from checkout page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "We log in stage url with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1187000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 70,
+            "name": "User is at checkout page after adding items to cart",
+            "result": {
+              "status": "passed",
+              "duration": 9190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 71,
+            "name": "User removes an item from checkout page",
+            "result": {
+              "status": "passed",
+              "duration": 1708000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "That item should get deleted from the list of products",
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "A success message for deletion should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 74,
+            "name": "Logout",
+            "result": {
+              "status": "passed",
+              "duration": 5655000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "purchasing-order;verify-that-user-should-not-be-able-to-place-order-with-empty-private-address-fields",
+        "keyword": "Scenario",
+        "line": 77,
+        "name": "Verify that user should not be able to place order with empty private address fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "We log in stage url with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 835000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1793000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 78,
+            "name": "User is at checkout page after adding items to cart",
+            "result": {
+              "status": "passed",
+              "duration": 9213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 79,
+            "name": "User selects Private address and keeps it empty",
+            "result": {
+              "status": "passed",
+              "duration": 5316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "Even if he accepts NIBE terms and conditions",
+            "result": {
+              "status": "passed",
+              "duration": 206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "User should not be able to place the order",
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "Logout",
+            "result": {
+              "status": "passed",
+              "duration": 5544000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "purchasing-order;verify-that-user-should-not-be-able-to-place-order-with-empty-company-address-fields",
+        "keyword": "Scenario",
+        "line": 85,
+        "name": "Verify that user should not be able to place order with empty company address fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "We log in stage url with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1026000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 86,
+            "name": "User is at checkout page after adding items to cart",
+            "result": {
+              "status": "passed",
+              "duration": 9185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 87,
+            "name": "User selects Company address and keeps it empty",
+            "result": {
+              "status": "passed",
+              "duration": 5346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 88,
+            "name": "Even if he accepts NIBE terms and conditions",
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 89,
+            "name": "User should not be able to place the order",
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 90,
+            "name": "Logout",
+            "result": {
+              "status": "passed",
+              "duration": 5551000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "purchasing-order;verify-that-user-should-not-be-able-to-place-order-if-switches-from-filled-address-tab-to-the-tab-with-empty-address",
+        "keyword": "Scenario",
+        "line": 93,
+        "name": "Verify that user should not be able to place order if switches from filled address tab to the tab with empty address",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "We log in stage url with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2036000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1571000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 94,
+            "name": "User is at checkout page after adding items to cart",
+            "result": {
+              "status": "passed",
+              "duration": 9073000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 95,
+            "name": "User selects Company address",
+            "result": {
+              "status": "passed",
+              "duration": 1227000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 96,
+            "name": "Fills all the details using Foretag adress",
+            "result": {
+              "status": "passed",
+              "duration": 19976000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 97,
+            "name": "User selects Private address and keeps it empty",
+            "result": {
+              "status": "passed",
+              "duration": 5369000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 98,
+            "name": "User should not be able to place the order",
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 99,
+            "name": "Logout",
+            "result": {
+              "status": "passed",
+              "duration": 5600000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

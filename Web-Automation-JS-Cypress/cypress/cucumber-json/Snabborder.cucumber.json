@@ -1,0 +1,772 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Snabborder functionality",
+    "line": 1,
+    "id": "snabborder-functionality",
+    "tags": [],
+    "uri": "Snabborder.feature",
+    "elements": [
+      {
+        "id": "snabborder-functionality;verify-snabborder-by-giving-positive-values-in-article-number-and-quantity-field",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Verify snabborder by giving positive values in article number and quantity field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User navigates to stage url and passes the authentication",
+            "result": {
+              "status": "passed",
+              "duration": 35249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 3065000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "We select snabborder",
+            "result": {
+              "status": "passed",
+              "duration": 6209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "We enter valid article number",
+            "result": {
+              "status": "passed",
+              "duration": 334000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "We enter some positive quantity",
+            "result": {
+              "status": "passed",
+              "duration": 272000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Add the item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 2180000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "The item or items should get added to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 2091000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "We logout",
+            "result": {
+              "status": "passed",
+              "duration": 5488000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "snabborder-functionality;verfiy-snabborder-by-giving-invalid-article-number-and-positive-quantity",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verfiy snabborder by giving invalid article number and positive quantity",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User navigates to stage url and passes the authentication",
+            "result": {
+              "status": "passed",
+              "duration": 1402000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 987000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "We select snabborder",
+            "result": {
+              "status": "passed",
+              "duration": 6216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "We enter invalid article number",
+            "result": {
+              "status": "passed",
+              "duration": 246000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "We enter some positive quantity",
+            "result": {
+              "status": "passed",
+              "duration": 236000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Add the item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 2183000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "We should receive proper error message",
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "We logout",
+            "result": {
+              "status": "passed",
+              "duration": 5437000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "snabborder-functionality;verify-snabborder-by-giving-valid-article-number-but-no-quantity",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Verify snabborder by giving valid article number but no quantity",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User navigates to stage url and passes the authentication",
+            "result": {
+              "status": "passed",
+              "duration": 3338000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1508000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "We select snabborder",
+            "result": {
+              "status": "passed",
+              "duration": 6174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "We enter valid article number",
+            "result": {
+              "status": "passed",
+              "duration": 306000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Add the item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 2173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "We should receive some error message asking to add quantity",
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "We logout",
+            "result": {
+              "status": "passed",
+              "duration": 5428000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "snabborder-functionality;verify-snabborder-by-giving-empty-article-number-and-empty-quanity",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Verify snabborder by giving empty article number and empty quanity",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User navigates to stage url and passes the authentication",
+            "result": {
+              "status": "passed",
+              "duration": 3331000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1840000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "We select snabborder",
+            "result": {
+              "status": "passed",
+              "duration": 6204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Add the item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 2170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "We should receive some error message asking to add quantity",
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "We logout",
+            "result": {
+              "status": "passed",
+              "duration": 5575000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "snabborder-functionality;verify-that-user-should-not-be-able-to-add-more-than-fifty-different-spare-parts-in-cart",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Verify that user should not be able to add more than fifty different spare parts in cart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User navigates to stage url and passes the authentication",
+            "result": {
+              "status": "passed",
+              "duration": 1118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1051000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "We select snabborder",
+            "result": {
+              "status": "passed",
+              "duration": 6176000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "ArticleNumbers"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "518611"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "024605"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "418946"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "634531"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "089885"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "724097"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "219458"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "407311"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "418872"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "518654"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "067589"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "718095"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "718283"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "057211"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "524007"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "624944"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "224163"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "418391"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "524572"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "718379"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "218757"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "718398"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "518752"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "624923"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "225740"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "028004"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "524613"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "060324"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "425691"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "524578"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "524018"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "418923"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "018819"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "624455"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "524003"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "424526"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "719001"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "034031"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "418939"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "718419"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "418424"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "634055"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "518701"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "418175"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "018320"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "420296"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "434307"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "407365"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "036480"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "036481"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "624638"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "718059"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 34,
+            "name": "User adds more than fifty different spare parts in cart",
+            "result": {
+              "status": "passed",
+              "duration": 514751000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 89,
+            "name": "Only fifty different items should get added and user should see warning text",
+            "result": {
+              "status": "passed",
+              "duration": 2458000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 90,
+            "name": "We logout",
+            "result": {
+              "status": "passed",
+              "duration": 11277000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "snabborder-functionality;verify-that-user-should-be-able-add-more-than-ten-item-in-cart-if-it-is-same",
+        "keyword": "Scenario",
+        "line": 92,
+        "name": "Verify that user should be able add more than ten item in cart if it is same",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User navigates to stage url and passes the authentication",
+            "result": {
+              "status": "passed",
+              "duration": 1848000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1331000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "We select snabborder",
+            "result": {
+              "status": "passed",
+              "duration": 6206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 93,
+            "name": "User enter valid article number",
+            "result": {
+              "status": "passed",
+              "duration": 340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 94,
+            "name": "Enter quanity more than ten",
+            "result": {
+              "status": "passed",
+              "duration": 285000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 95,
+            "name": "Add the item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 2253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 96,
+            "name": "Item with quantity more than ten should be visible in cart",
+            "result": {
+              "status": "passed",
+              "duration": 2071000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 97,
+            "name": "We logout",
+            "result": {
+              "status": "passed",
+              "duration": 6357000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

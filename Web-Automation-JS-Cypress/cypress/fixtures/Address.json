@@ -1,0 +1,9 @@
+{
+"orgName":"test",
+"receiverName":"dont deliver",
+"address":"testAddress",
+"postNum":"33432",
+"stad":"testCity",
+"lesserPostNum":"2234",
+"greaterPostNum":"334322"
+}

@@ -1,0 +1,90 @@
+export const CONNECTEL = 'Connectel';
+// Home page
+export const CONVERSATIONS = 'Conversations';
+export const CONTACTS = 'Contacts';
+export const STATISTICS = 'Statistics';
+// Menu section
+export const STAFF = 'Staff';
+export const EMAIL = 'Mail';
+export const CONTACT_MANAGEMENT = 'Contact management';
+export const FORM_CHANNEL = 'Form channel';
+export const TOOLS = 'Tools';
+// Submenu sections
+export const USERS = 'Users';
+export const USER = 'User';
+export const P_USER = 'User';
+export const AGENT_PROFILES = 'Agent profiles';
+export const ADMIN_PROFILES = 'Admin profiles';
+export const ADMIN_PROFILE = 'Admin profile';
+export const ORGANIZATIONS = 'Organizations'; //
+export const ORGANIZATION = 'Organization';
+export const TEAMS = 'Teams';
+export const MAIL_QUEUES = 'Mail queues';
+export const MAIL_ACCOUNTS = 'Mail Accounts';
+export const MAIL_JOURNEYS = 'Mail journeys';
+export const JOURNEY_DRAFTS = 'Journey drafts';
+export const LISTS = 'Lists';
+export const FORM_WEBSITES = 'Form websites';
+export const DISPOSITIONS = 'Dispositions';
+export const DISPOSITION = 'Disposition';
+export const TAGS = 'Tags';
+export const TAG = 'Tag';
+export const ADD_TAG = 'Add Tag';
+export const EDIT_TAG = 'Edit Tag';
+export const PAUSES = 'Pauses';
+export const FIELDS = 'Fields';
+export const FORMS = 'Forms';
+export const TIME_INTERVALS = 'Time intervals';
+export const OPERATIONAL_HOURS = 'Operational hours';
+export const SLA_POLICIES = 'SLA policies';
+export const CANNED_ANSWERS = 'Canned answers';
+export const SIGNATURES = 'Signatures';
+export const ADD_USER = 'Add User';
+export const EDIT_USER = 'Edit User';
+export const ADD_ITEM = 'Add item';
+export const ADD_ADMIN_PROFILE = 'Add Admin profile';
+export const EDIT_ADMIN_PROFILE = 'Edit Admin profile';
+export const EDIT_ORGANIZATION = 'Edit Organization';
+export const ADD_ORGANIZATION = 'Add Organization';
+export const ADD_DISPOSITION = 'Add Disposition';
+export const EDIT_DISPOSITION = 'Edit Disposition';
+export const ADD_NEW = 'Add new';
+export const SAVE = 'Save';
+export const YES = 'Yes';
+export const NO = 'No';
+export const OK = 'OK';
+export const PERMISSIONS = 'Permissions';
+export const SEARCH = 'Search';
+export const RESET = 'Reset';
+export const BACK = 'back';
+
+export const TEST_ORG = 'EditAutomationTestOrg';
+export const TEST_ADMIN_PROFILE = 'Tue26Admin';
+export const DISPOS_BUG_42 = 'DisposBug42';
+
+export const ORG_LEVEL_1 = 'Org_Asia';
+export const ORG_LEVEL_2_CHILD_1 = 'Org_India';
+export const ORG_LEVEL_2_CHILD_2 = 'Org_Nepal';
+export const ORG_LEVEL_3 = 'Org_Delhi';
+export const ORG_LEVEL_1_USER = 'org-asia-user';
+export const ORG_LEVEL_2_CHILD_1_USER = 'org-india-user';
+export const ORG_LEVEL_2_CHILD_2_USER = 'org-nepal-user';
+export const ORG_LEVEL_3_USER = 'org-delhi-user';
+export const ORG_ASIA_AP = 'Org_Asia_AP';
+export const ORG_INDIA_AP = 'Org_India_AP';
+export const ORG_NEPAL_AP = 'Org_Nepal_AP';
+export const ORG_DELHI_AP = 'Org_Delhi_AP';
+
+export const ADMIN = 'Admin';
+export const ERROR_MSG_DUPLICATE_UNAME =
+  'The username you are trying to use is already taken! Be aware that this username could belong to another organization!';
+export const ERROR_MSG_DUPLICATE_EMAIL =
+  'The email you are trying to use is already taken! Be aware that this email could belong to another organization!';
+export const ERROR_MSG = 'TBD';
+export const MAY_NOT_BE_EMPTY_WARNING = 'May not be empty';
+export const MINIMUM_1_OPTION_REQUIRED_WARNING = 'Minimum 1 option required';
+export const NULL_STRING = '        ';
+export const READ = 0;
+export const EDIT = 1;
+export const DELETE = 2;
+export const CREATE = 3;

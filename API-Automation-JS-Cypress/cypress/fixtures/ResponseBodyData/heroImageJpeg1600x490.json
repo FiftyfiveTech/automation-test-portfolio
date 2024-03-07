@@ -1,0 +1,15 @@
+{
+  "brandId": "NIBE",
+  "firmwareTypeId": "nibe-n",
+  "imageId": "heroImageJpeg",
+  "fileExtension": "jpeg",
+  "generic": true,
+  "resize": false,
+  "tileId": null,
+  "width": 1600,
+  "height": 490,
+  "uploadStatus": true,
+  "uploadResult": "Success",
+  "imageType": "HeroImage",
+  "format": "Jpeg"
+}

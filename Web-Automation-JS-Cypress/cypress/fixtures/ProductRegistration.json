@@ -1,0 +1,4 @@
+{
+    "installtions":{"sv":["Installationsfirma","Organisationsnummer","E-postadress","Serienummer","Installationsdatum"],"int":["Installation company","Organization number","Email address","Serial number","Installation date"]},
+    "insurance":{"sv":["Namn","Gatuadress","Postnummer","Telefonnummer","E-postadress","Installationsadress","Postnummer","Postort"],"int":["Name","Street address","Emailaddress","Post office","Phone number","Installation address","ZIP code"]}
+}

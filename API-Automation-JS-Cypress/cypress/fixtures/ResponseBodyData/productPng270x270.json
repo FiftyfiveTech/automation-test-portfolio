@@ -1,0 +1,15 @@
+{
+  "brandId": "NIBE",
+  "firmwareTypeId": "nibe-n",
+  "imageType": "Product",
+  "format": "Png3x",
+  "imageId": "AutomationProductPng3x",
+  "fileExtension": "png",
+  "generic": true,
+  "tileId": null,
+  "width": 270,
+  "height": 270,
+  "uploadStatus": true,
+  "uploadResult": "Success",
+  "resize": false
+}

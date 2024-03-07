@@ -1,0 +1,19 @@
+{
+  "errorMsgProductJpeg": "Product image format must be defined in Png,Png1x,Png2x,Png3x instead of Jpeg.",
+  "errorMsgProductSvg": "Product image format must be defined in Png,Png1x,Png2x,Png3x instead of Svg.",
+  "errorMsgTileIconPng": "Tile icon file extension must be: .svg",
+  "errorMsgTileIconPng1x": "Tile icon file extension must be: .svg",
+  "errorMsgTileIconPng2x": "Tile icon file extension must be: .svg",
+  "errorMsgTileIconPng3x": "Tile icon file extension must be: .svg",
+  "errorMsgTileIconJpeg": "Tile icon file extension must be: .svg",
+  "errorMsgLogoAssetPng": "Logo asset format must be defined in Svg instead of Png.",
+  "errorMsgLogoAssetPng1x": "Logo asset format must be defined in Svg instead of Png1x.",
+  "errorMsgLogoAssetPng2x": "Logo asset format must be defined in Svg instead of Png2x.",
+  "errorMsgLogoAssetPng3x": "Logo asset format must be defined in Svg instead of Png3x.",
+  "errorMsgLogoAssetJpeg": "Logo asset format must be defined in Svg instead of Jpeg.",
+  "errorMsgHeroImagePng": "Hero image format must be defined in Jpg,Jpeg instead of Png.",
+  "errorMsgHeroImagePng1x": "Hero image format must be defined in Jpg,Jpeg instead of Png1x.",
+  "errorMsgHeroImagePng2x": "Hero image format must be defined in Jpg,Jpeg instead of Png2x.",
+  "errorMsgHeroImagePng3x": "Hero image format must be defined in Jpg,Jpeg instead of Png3x.",
+  "errorMsgHeroImageSvg": "Hero image format must be defined in Jpg,Jpeg instead of Svg."
+}

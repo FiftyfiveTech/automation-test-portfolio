@@ -1,0 +1,11 @@
+{
+  "BrandId": "NIBE",
+  "OverwriteFile": "true",
+  "TileId": "Eco",
+  "FirmwareTypeId": "nibe-n",
+  "Resize": "true",
+  "ImageType": "TileIcon",
+  "ImageId": "weather-cloudy",
+  "Format": "Svg",
+  "Generic": "true"
+}

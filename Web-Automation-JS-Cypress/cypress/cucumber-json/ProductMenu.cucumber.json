@@ -1,0 +1,552 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Featutes for Product menu",
+    "line": 1,
+    "id": "featutes-for-product-menu",
+    "tags": [],
+    "uri": "ProductMenu.feature",
+    "elements": [
+      {
+        "id": "featutes-for-product-menu;all-the-menus-should-be-available-for-the-user",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "All the menus should be available for the user",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User has navigated to stage url",
+            "result": {
+              "status": "passed",
+              "duration": 8742000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User is at the home page",
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "All the menus should be available for the him",
+            "result": {
+              "status": "passed",
+              "duration": 221000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "featutes-for-product-menu;all-the-submenus-for-produkter-menu-should-be-available",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "All the submenus for Produkter menu should be available",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User has navigated to stage url",
+            "result": {
+              "status": "passed",
+              "duration": 6793000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "User hovers on Produkter menu",
+            "result": {
+              "status": "passed",
+              "duration": 148000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "He should be at able to see all the sub menus for Produkter",
+            "result": {
+              "status": "passed",
+              "duration": 630000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "All the submenus should be linked to their respective pages",
+            "result": {
+              "status": "passed",
+              "duration": 26440000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "featutes-for-product-menu;verify-elpanor-submenu",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Verify Elpanor submenu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User has navigated to stage url",
+            "result": {
+              "status": "passed",
+              "duration": 7764000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User selects Elpanor submenu",
+            "result": {
+              "status": "passed",
+              "duration": 2346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "He should navigate to 15506 page",
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "User clicks image of Elpanor",
+            "result": {
+              "status": "passed",
+              "duration": 2184000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "He should navigate to its subgroup page",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "All associated products should be there",
+            "result": {
+              "status": "passed",
+              "duration": 172000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "featutes-for-product-menu;verify-product-pages-for-elpannor",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Verify Product pages for Elpannor",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User has navigated to stage url",
+            "result": {
+              "status": "passed",
+              "duration": 6590000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "User has navigated to subgroup page of Elpannor",
+            "result": {
+              "status": "passed",
+              "duration": 4658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "User selects VVM 225",
+            "result": {
+              "status": "passed",
+              "duration": 2184000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "He should navigate to its product page",
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "He should able to see model table and all required tabs",
+            "result": {
+              "status": "passed",
+              "duration": 450000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "featutes-for-product-menu;verify-document-tab-for-vvm225",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Verify Document tab for VVM225",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User has navigated to stage url",
+            "result": {
+              "status": "passed",
+              "duration": 7173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "User has navigated to VVM225 product page",
+            "result": {
+              "status": "passed",
+              "duration": 6871000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "User selects document tab",
+            "result": {
+              "status": "passed",
+              "duration": 2165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "He should be able to see all the documents at first",
+            "result": {
+              "status": "passed",
+              "duration": 107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "User clicks Produktblad tab for document filtration",
+            "result": {
+              "status": "passed",
+              "duration": 2159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "He should get the results as all Produktblad documents",
+            "result": {
+              "status": "passed",
+              "duration": 64000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "featutes-for-product-menu;verify-working-of-dropdown-for-deifferent-models-at-product-page",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Verify working of dropdown for deifferent models at product page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User has navigated to stage url",
+            "result": {
+              "status": "passed",
+              "duration": 6668000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 42,
+            "name": "User has navigated to VVM225 product page",
+            "result": {
+              "status": "passed",
+              "duration": 6815000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "User selects EVC 13 from the dropdown available on the product page",
+            "result": {
+              "status": "passed",
+              "duration": 2335000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "The product page for EVC 13 should get opened",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "User should able to see all the details of EVC 13",
+            "result": {
+              "status": "passed",
+              "duration": 463000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "featutes-for-product-menu;verify-värmepumpar-submenu",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Verify Värmepumpar submenu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User has navigated to stage url",
+            "result": {
+              "status": "passed",
+              "duration": 7505000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "User selects Värmepumpar submenu",
+            "result": {
+              "status": "passed",
+              "duration": 2372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "Three different type of heat pumps should be available on product goup page",
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "User selects LuftVattenvärmepumpar",
+            "result": {
+              "status": "passed",
+              "duration": 168000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "He should navigate to subgroup page of LuftVattenvärmepumpar",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "All associated products should be there for LuftVattenvärmepumpar",
+            "result": {
+              "status": "passed",
+              "duration": 686000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "featutes-for-product-menu;verify-product-page-for-värmepumpar",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "Verify Product page for Värmepumpar",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User has navigated to stage url",
+            "result": {
+              "status": "passed",
+              "duration": 6495000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 57,
+            "name": "User has navigated to subgroup page of LuftVattenvärmepumpar",
+            "result": {
+              "status": "passed",
+              "duration": 2511000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "User selects VVM S325",
+            "result": {
+              "status": "passed",
+              "duration": 754000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "He should navigate to the product page of VVM S325",
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "He should able to see model table and all required tabs along with Kombinationer",
+            "result": {
+              "status": "passed",
+              "duration": 827000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "featutes-for-product-menu;verify-tillbehör-tab-on-product-page-of-vvm-s325",
+        "keyword": "Scenario",
+        "line": 63,
+        "name": "Verify Tillbehör tab on Product page of VVM S325",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User has navigated to stage url",
+            "result": {
+              "status": "passed",
+              "duration": 7531000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 64,
+            "name": "User has navigated to VVM S325 product page",
+            "result": {
+              "status": "passed",
+              "duration": 3294000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 65,
+            "name": "User clicks Tillbehör tab of VVM S325",
+            "result": {
+              "status": "passed",
+              "duration": 2155000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "He should be able to see filter tabs as VVM S325 and Visa alla",
+            "result": {
+              "status": "passed",
+              "duration": 109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "All the accessories related to VVM S325 should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+    "extends": "./cypress.json",
+    "baseUrl": "baseURL",
+    "env":
+    {
+      "USER_USERNAME":"test@mail.com",
+      "USER_PASSWORD": "Pass12345"
+    }
+  }

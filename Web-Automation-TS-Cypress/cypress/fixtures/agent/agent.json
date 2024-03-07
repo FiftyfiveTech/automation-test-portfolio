@@ -1,0 +1,15 @@
+{
+  "name": "John Doe",
+  "role": "Agent",
+  "username": "john.doe",
+  "agentProfiles": [
+    {
+      "title": "General Agent Profile",
+      "queues": [{ "title": "Default Queue" }, { "title": "Queue 2" }]
+    },
+    {
+      "title": "Agent Profile 2",
+      "queues": []
+    }
+  ]
+}

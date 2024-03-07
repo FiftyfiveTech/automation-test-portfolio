@@ -1,0 +1,7 @@
+{
+    "Sections":{"sv":["Översikt","Profil","Organisation","Beställningar","Fakturor","Inköpslistor","Senaste Installationer","Registrera produkt"],"int":["Dashboard","Profile","Organization","Orders","Invoices","Shopping Lists","Latest Installations","Register product"]},
+    "ProfileSection":{"sv":["Namn","Epost","Roll"],"int":["Name","E-mail","Role"]},
+    "FortargetSection":{"sv":["Företag","Org. nr.","Postadress","Fakturaadress","Epost","Tele"],"int":["Business","Org. no.","Postal address","Billing address","E-mail","Tele"]},
+    "Dashboard":{"sv":["MINA NLP POÄNG","Profil","Beställningar","Fakturor","Senaste installationer"],"int":["MY NLP POINTS","Profile","Orders","Invoices","Latest installations"]},
+    "ProfileInDashboard":{"sv":["Namn","Epost","Roll","Företag","Org. nr."],"int":["Name","E-mail","Role","Business","Org. no."]}
+}

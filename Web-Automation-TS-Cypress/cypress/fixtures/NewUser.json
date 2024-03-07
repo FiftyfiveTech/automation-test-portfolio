@@ -1,0 +1,14 @@
+{
+  "uIdUser": "user",
+  "uEmailPre": "user",
+  "uEmailPost": " ",
+  "newUserFirstName": "Automation",
+  "newUserLastName": "TestUser2",
+  "newUserPassword": "test12345",
+  "editEmailPre": "edituser",
+  "editUserFirstName": "Automation",
+  "editUserLastName": "EditUser",
+  "existingUser": "james.bond6",
+  "existingEmail": "j",
+  "searchFirtName": "Automation"
+}

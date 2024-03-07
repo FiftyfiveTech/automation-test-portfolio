@@ -1,0 +1,302 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Features for Kudvagn",
+    "line": 1,
+    "id": "features-for-kudvagn",
+    "tags": [],
+    "uri": "Kundvagn.feature",
+    "elements": [
+      {
+        "id": "features-for-kudvagn;as-a-user-whenever-i-add-item-to-the-cart-then-the-item-should-get-added-to-the-cart",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "As a user whenever I add item to the cart then the item should get added to the cart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "We log in stage url with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 34122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1664000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "We add any item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 9267000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "The item should get added to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 2082000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "We logout",
+            "result": {
+              "status": "passed",
+              "duration": 5410000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "features-for-kudvagn;verify-that-when-some-item-is-added-to-cart-kundvagn-should-have-tom-varukorg-and-till-varukorg-button",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Verify that when some item is added to cart Kundvagn should have Tom varukorg and till varukorg button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "We log in stage url with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2900000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1432000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "We add any item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 9076000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Click Kundvagn icon",
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Till Varukorg and Tom Varukorg button should be present",
+            "result": {
+              "status": "passed",
+              "duration": 98000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "We logout",
+            "result": {
+              "status": "passed",
+              "duration": 5455000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "features-for-kudvagn;verify-when-we-click-tom-varukorg-button-the-cart-get-emptied",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Verify when we click Tom Varukorg button the cart get emptied",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "We log in stage url with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2700000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "We add some item to cart",
+            "result": {
+              "status": "passed",
+              "duration": 8975000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "Click Kundvagn icon",
+            "result": {
+              "status": "passed",
+              "duration": 220000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Click Tom Varukorg",
+            "result": {
+              "status": "passed",
+              "duration": 7269000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Cart should get empty and Tom Varukorg button should not be visible",
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "We logout",
+            "result": {
+              "status": "passed",
+              "duration": 5486000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "features-for-kudvagn;verify-that-when-we-delete-item-then-the-item-gets-deleted-from-cart",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Verify that when we delete item then the item gets deleted from cart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "We log in stage url with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 3207000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1838000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "We add any item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 8842000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "Click Kundvagn icon",
+            "result": {
+              "status": "passed",
+              "duration": 157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Delete that item from cart",
+            "result": {
+              "status": "passed",
+              "duration": 148000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "The item should get deleted",
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "We logout",
+            "result": {
+              "status": "passed",
+              "duration": 5448000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

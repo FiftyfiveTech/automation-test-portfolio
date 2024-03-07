@@ -1,0 +1,40 @@
+{
+  "name": "customerportalautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "13.4.0",
+    "cypress-mochawesome-reporter": "^3.0.0",
+    "cypress-multi-reporters": "^1.6.3",
+    "dotenv": "^16.3.1",
+    "junit-report-merger": "^6.0.2",
+    "mocha": "10.2.0",
+    "mocha-junit-reporter": "^2.2.1",
+    "test-results-reporter": "^1.0.17"
+  },
+  "devDependencies": {
+    "cy-verify-downloads": "0.0.5",
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "jquery": "^3.6.4",
+    "multiple-cucumber-html-reporter": "^1.18.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e/Features",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "scripts": {
+    "gen-combine-report": "jrm ./cypress/reports/combined-report.xml \"./cypress/reports/junit/results-*.xml\"",
+    "cypress": "npx cypress run --spec **/*.feature --headed --browser chrome",
+    "cypress-critical": "npx cypress run --spec cypress/e2e/Features/PurchaseOrder.feature,cypress/e2e/Features/NonLoggedinUser.feature --headed --browser chrome",
+    "publish-results": "node config.js"
+  },
+  "author": "nitin",
+  "license": "ISC"
+}

@@ -1,0 +1,9 @@
+{
+  "BrandId": "NIBE",
+  "OverwriteFile": "true",
+  "TileId": "Consumption",
+  "FirmwareTypeId": "nibe-n",
+  "Resize": "true",
+  "ImageId": "imageAutomation001",
+  "Generic": "true"
+}

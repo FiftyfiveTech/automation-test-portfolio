@@ -1,0 +1,11 @@
+{
+  "BrandId": "NIBE",
+  "OverwriteFile": "true",
+  "TileId": "Consumption",
+  "FirmwareTypeId": "nibe-n",
+  "Resize": "false",
+  "ImageType": "Product",
+  "ImageId": "AutomationProductPng2x",
+  "Format": "Png2x",
+  "Generic": "true"
+}

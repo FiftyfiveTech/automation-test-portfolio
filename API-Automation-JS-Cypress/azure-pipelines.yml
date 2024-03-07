@@ -1,0 +1,45 @@
+pr: none
+
+pool:
+  vmImage: windows-2022
+
+steps:
+- task: AzureCLI@2
+  inputs:
+    azureSubscription: '207304 - JPI Stage (1d2eed0d-786e-43f1-8645-3bbb205f82ff)'
+    scriptType: 'bash'
+    scriptLocation: 'inlineScript'
+    inlineScript: 'IP_ADDRESS=`curl http://ipinfo.io/json 2>/dev/null | jq ''.ip'' | sed ''s/"//g''` && az network nsg rule create -g jpicloud-stage-rg --nsg-name jpicloud-stage-admin-nsg -n TempAllowAzureDevopsAgent --priority 678 --source-address-prefixes $IP_ADDRESS --source-port-ranges ''*'' --destination-address-prefixes ''*'' --destination-port-ranges 443 --access Allow --description "Temporary allow during pipeline execution" --protocol ''*'''
+
+- task: NodeTool@0
+  displayName: 'Use Node 14.x'
+  inputs:
+    versionSpec: 14.x
+
+- task: Npm@1
+  displayName: 'npm install'
+  inputs:
+    workingDir: '.'
+    verbose: false
+  continueOnError: true
+
+- task: AzureCLI@2
+  displayName: "Wait until connection to the website is allowed"
+  inputs:
+    azureSubscription: '207304 - JPI Stage (1d2eed0d-786e-43f1-8645-3bbb205f82ff)'
+    scriptType: 'bash'
+    scriptLocation: 'inlineScript'
+    inlineScript: 'while ! curl -I url/ --max-time 30 ; do echo "trying again" ; done'
+
+- script: |
+    $env:TZ='UTC'
+    npx cypress run --record --key 47a94ef3-81cb-442a-bf44-7df5f425cea2
+  continueOnError: True
+
+- task: AzureCLI@2
+  inputs:
+    azureSubscription: '207304 - JPI Stage (1d2eed0d-786e-43f1-8645-3bbb205f82ff)'
+    scriptType: 'bash'
+    scriptLocation: 'inlineScript'
+    inlineScript: 'az network nsg rule delete -g jpicloud-stage-rg --nsg-name jpicloud-stage-admin-nsg -n TempAllowAzureDevopsAgent'
+  condition: succeededOrFailed()

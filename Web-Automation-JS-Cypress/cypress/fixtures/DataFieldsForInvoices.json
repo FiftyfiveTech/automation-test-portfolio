@@ -1,0 +1,5 @@
+{
+    "fields":{"sv":["FAKTURANUMMER","ORDERNUMMER","SUMMA","ORDERMÄRKNING","STATUS"],"int":["INVOICE NUMBER","ORDER NUMBER","SUM","ORDER MARKING","STATUS"]},
+    "invoiceInfo":{"sv":["Frakt","Beställda produkter","Märk:","Faktura nr.","Beställningsnr.","Fakturadatum","Förfallodatum","Artikelnummer","Namn","Kvantitet","Pris","Rabatt","Belopp","Delsumma","Moms","Totalt"],"int":["Shipping","Ordered Products","Mark:","Invoice no.","Order no.","Invoice date","Due Date","Item Number","Name","Quantity","Price","Discount","Amount"]},
+    "InvoiceFieldsInDashboard":{"sv":["FAKTURANUMMER","DATUM","STATUS","SUMMA"],"int":["INVOICE NUMBER","DATE","STATUS","SUM"]}
+}

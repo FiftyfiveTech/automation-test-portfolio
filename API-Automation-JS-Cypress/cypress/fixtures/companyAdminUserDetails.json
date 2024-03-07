@@ -1,0 +1,9 @@
+{
+  "grant_type": "password",
+  "username": "email",
+  "password": "Test@12345",
+  "client_id": "Public-Admin-Client",
+  "admincompany": "1936a40d-37ce-470c-a994-4225e9861b58",
+  "adminUserType": "CompanyUser",
+  "scope": "offline_access READSYSTEM REGISTRATION WRITESYSTEM"
+}

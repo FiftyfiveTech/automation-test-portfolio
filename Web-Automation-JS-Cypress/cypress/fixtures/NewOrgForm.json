@@ -1,0 +1,4 @@
+{
+    "addressLabels": ["Adressrad 1","Adressrad 2","Stad", "Postnummer","Land"],
+    "contactInfo":["Förnamn","Efternamn","E-postadress","Mobilnummer","Faktura e-postadress","Leverans e-postadress"]
+}

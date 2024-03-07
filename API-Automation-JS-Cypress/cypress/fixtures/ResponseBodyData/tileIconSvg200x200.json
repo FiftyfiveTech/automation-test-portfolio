@@ -1,0 +1,14 @@
+{
+  "brandId": "NIBE",
+  "firmwareTypeId": "nibe-n",
+  "imageType": "TileIcon",
+  "format": "Svg",
+  "imageId": "weather-cloudy",
+  "fileExtension": "svg",
+  "generic": true,
+  "tileId": "Eco",
+  "width": 0,
+  "height": 0,
+  "uploadStatus": true,
+  "uploadResult": "Success"
+}
