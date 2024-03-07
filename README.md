@@ -16,3 +16,10 @@ This project focuses on mobile automation using Java and Appium, a powerful comb
 
 ---
 
+# Cypress Web Automation with TypeScript
+
+This project harnesses the capabilities of Cypress for web automation with TypeScript. TypeScript adds static typing and other advanced features to JavaScript, enhancing code quality and maintainability. By combining Cypress with TypeScript, you get the benefits of strong typing, code refactoring, and improved error detection, enabling you to build robust and scalable web test suites with confidence. Additionally, the integration with CI/CD pipelines ensures continuous testing and delivery of your web applications. We adopt the latest technology and follow industry best practices to deliver high-quality and reliable web automation solutions.
+
+---
+
+
